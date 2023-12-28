@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">  
+    </head>
+
+<body>
+    <header>
+        <h1>DailyDo</h1>
+    </header>
+
+    <div class="container-enterTask">
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <button id="addTaskButton">Add Task</button>
+    </div>
+
+    <div class="container-currentTasks">
+        <h2>To-Do List</h2>
+        <div id="tasksContainer" class="list-container"></div>
+        <div class="empty-state" id="emptyStateCurrent">
+            <img src="./emptyState.png" alt="Empty State Image">
+        </div>  
+    </div>
+
+    <div class="container-completedTasks" class="list-container">
+        <h2>Completed Tasks</h2>
+        <div id="completedTasks" class="completed-container"></div>
+        <div class="empty-state" id="emptyStateCompleted">
+            <img src="./emptyState.png" alt="Empty State Image">
+        </div>
+    </div>
+
+<script src="javascript.js"></script>
+
+</body>
+
+</html>
